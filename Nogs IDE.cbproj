@@ -1,0 +1,606 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C509FC93-9803-4E88-BD7C-5F98586EE18E}</ProjectGuid>
+        <ProjectVersion>15.1</ProjectVersion>
+        <FrameworkType>VCL</FrameworkType>
+        <MainSource>Nogs IDE.cpp</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win64)'!=''">
+        <Cfg_1_Win64>true</Cfg_1_Win64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
+        <Cfg_2_Win64>true</Cfg_2_Win64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VCL_Custom_Styles>&quot;Carbon|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\9.0\Styles\Carbon.vsf&quot;</VCL_Custom_Styles>
+        <_TCHARMapping>wchar_t</_TCHARMapping>
+        <ProjectType>CppVCLApplication</ProjectType>
+        <ILINK_LibraryPath>Wizards\ZeroConf\;FatFs-0-10-c\option\;FatFs-0-10-c\;..\..\..\..\..\NOGS-IDE (Veraltet)\BuilderXE2\FatFs-0-10-c\option\;..\..\..\..\..\NOGS-IDE (Veraltet)\BuilderXE2\FatFs-0-10-c\;..\..\Librarys\CBuilderUC\Utils\;..\..\Librarys\CBuilderUC\Usul\;..\..\Librarys\CBuilderUC\Types\;..\..\Librarys\CBuilderUC\MessageBoxDlg\;..\..\Librarys\CBuilderUC\IPHelper\;..\..\Librarys\CBuilderUC\Format\;..\..\Librarys\CBuilderUC\File\;..\..\Librarys\CBuilderUC\Error2\;..\..\Librarys\CBuilder\UDP\;..\..\Librarys\CBuilder\NetTypes\;..\..\Librarys\CBuilder\JSON\;..\..\Librarys\CBuilder\COAP\;..\..\Librarys\CBuilder\Busy\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Utils\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Usul\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Types\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\MessageBoxDlg\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\IPHelper\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Format\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\File\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Error2\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\UDP\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\NetTypes\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\COAP\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\Busy\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\JSON\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\;DLL\;Protcols\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\;Dialogs\;lua-5.3.0-alpha\src\;Frames\Setup\;..\..\TFTPSever\BuilderXE2\FatFs-0-10-c\option\;..\..\TFTPSever\BuilderXE2\FatFs-0-10-c\;..\..\TFTPSever\BuilderXE2\;..\..\Libs\JSON\Win\;Frames\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <PackageImports>bindcompfmx;fmx;rtl;dbrtl;DbxClientDriver;IndySystem;bindcomp;inetdb;DBXInterBaseDriver;xmlrtl;DbxCommonDriver;IndyProtocols;dbxcds;DBXMySQLDriver;bindengine;soaprtl;CustomIPTransport;dsnap;fmxase;IndyCore;inet;fmxobj;inetdbxpress;fmxdae;IPIndyImpl;dbexpress;$(PackageImports)</PackageImports>
+        <Multithreaded>true</Multithreaded>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <AllPackageLibs>rtl.lib;vcl.lib;vclx.lib;vclactnband.lib;vcldb.lib;dbrtl.lib;xmlrtl.lib;vclimg.lib;IndyCore.lib;IndySystem.lib;IndyProtocols.lib;bcbsmp.lib;vclie.lib;adortl.lib;VclSmp.lib;tmsdXE5.lib</AllPackageLibs>
+        <Icon_MainIcon>$(BDS)\bin\cbuilder_PROJECTICON.ico</Icon_MainIcon>
+        <UsingDelphiRTL>true</UsingDelphiRTL>
+        <IncludePath>Wizards\ZeroConf\;FatFs-0-10-c\option\;FatFs-0-10-c\;..\..\..\..\..\NOGS-IDE (Veraltet)\BuilderXE2\FatFs-0-10-c\option\;..\..\..\..\..\NOGS-IDE (Veraltet)\BuilderXE2\FatFs-0-10-c\;..\..\Librarys\CBuilderUC\Utils\;..\..\Librarys\CBuilderUC\Usul\;..\..\Librarys\CBuilderUC\Types\;..\..\Librarys\CBuilderUC\MessageBoxDlg\;..\..\Librarys\CBuilderUC\IPHelper\;..\..\Librarys\CBuilderUC\Format\;..\..\Librarys\CBuilderUC\File\;..\..\Librarys\CBuilderUC\Error2\;..\..\Librarys\CBuilder\UDP\;..\..\Librarys\CBuilder\NetTypes\;..\..\Librarys\CBuilder\JSON\;..\..\Librarys\CBuilder\COAP\;..\..\Librarys\CBuilder\Busy\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Utils\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Usul\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Types\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\MessageBoxDlg\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\IPHelper\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Format\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\File\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\Error2\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\UDP\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\NetTypes\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\COAP\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\Busy\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\JSON\;..\..\01_Development\Nodes\Software\Librarys\CBuilderUC\;DLL\;Protcols\;..\..\01_Development\Nodes\Software\Librarys\CBuilder\;Dialogs\;lua-5.3.0-alpha\src\;Frames\Setup\;..\..\TFTPSever\BuilderXE2\FatFs-0-10-c\option\;..\..\TFTPSever\BuilderXE2\FatFs-0-10-c\;..\..\TFTPSever\BuilderXE2\;..\..\Libs\JSON\Win\;Frames\;$(IncludePath)</IncludePath>
+        <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+        <DynamicRTL>true</DynamicRTL>
+        <UsePackages>true</UsePackages>
+        <IntermediateOutputDir>.\$(Platform)\$(Config)</IntermediateOutputDir>
+        <FinalOutputDir>.\$(Platform)\$(Config)</FinalOutputDir>
+        <BCC_wpar>false</BCC_wpar>
+        <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+        <BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
+        <ILINK_TranslatedLibraryPath>$(BDSLIB)\$(PLATFORM)\release\$(LANGDIR);$(ILINK_TranslatedLibraryPath)</ILINK_TranslatedLibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <PackageImports>vcldbx;frx16;TeeDB;Rave100VCL;vclib;inetdbbde;Tee;JclContainers;ibxpress;vclimg;intrawebdb_120_160;frxDB16;fs16;vclactnband;FMXTee;vcldb;vcldsnap;bindcompvcl;TeeUI;Jcl;vclie;vcltouch;Intraweb_120_160;bcbsmp;websnap;vclribbon;frxe16;fsDB16;vcl;CloudService;CodeSiteExpressPkg;FmxTeeUI;dsnapcon;JclVcl;vclx;webdsnap;JclDeveloperTools;bdertl;adortl;bcbie;bcboffice2k;$(PackageImports)</PackageImports>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <IncludePath>$(BDSINCLUDE)\windows\vcl;$(IncludePath)</IncludePath>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <PackageImports>vcldbx;frx16;TeeDB;Rave100VCL;vclib;inetdbbde;Tee;JclContainers;ibxpress;vclimg;intrawebdb_120_160;frxDB16;fs16;vclactnband;FMXTee;vcldb;vcldsnap;bindcompvcl;TeeUI;Jcl;vclie;vcltouch;Intraweb_120_160;bcbsmp;websnap;vclribbon;frxe16;fsDB16;vcl;CloudService;CodeSiteExpressPkg;FmxTeeUI;dsnapcon;JclVcl;vclx;webdsnap;JclDeveloperTools;bdertl;adortl;bcbie;bcboffice2k;$(PackageImports)</PackageImports>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+        <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+        <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+        <DCC_Define>DEBUG</DCC_Define>
+        <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+        <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+        <BCC_StackFrames>true</BCC_StackFrames>
+        <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+        <TASM_Debugging>Full</TASM_Debugging>
+        <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+        <ILINK_LibraryPath>$(BDSLIB)\$(PLATFORM)\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <ILINK_TranslatedLibraryPath>$(BDSLIB)\$(PLATFORM)\debug\$(LANGDIR);$(ILINK_TranslatedLibraryPath)</ILINK_TranslatedLibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_Keys>CompanyName=Nogs GmbH;FileDescription=Nogs IDE;FileVersion=1.0.4.0;InternalName=;LegalCopyright=Nogs GmbH;LegalTrademarks=;OriginalFilename=;ProductName=Nogs IDE;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Release>4</VerInfo_Release>
+        <Icon_MainIcon>BMP\Icon.ico</Icon_MainIcon>
+        <Defines>_DEBUG;$(Defines)</Defines>
+        <ILINK_LibraryPath>C:\TMS;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IncludePath>C:\TMS;$(IncludePath)</IncludePath>
+        <UsePackages>false</UsePackages>
+        <FinalOutputDir>.</FinalOutputDir>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <LinkPackageStatics>rtl.lib;vcl.lib;vclx.lib;vclactnband.lib;vcldb.lib;dbrtl.lib;xmlrtl.lib;vclimg.lib;IndyCore.lib;IndySystem.lib;IndyProtocols.lib;bcbsmp.lib;vclie.lib;adortl.lib;VclSmp.lib;tmsdXE5.lib</LinkPackageStatics>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <DynamicRTL>false</DynamicRTL>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <Defines>_DEBUG;$(Defines)</Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <TASM_Debugging>None</TASM_Debugging>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <Defines>NDEBUG;$(Defines)</Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
+        <Defines>NDEBUG;$(Defines)</Defines>
+    </PropertyGroup>
+    <ItemGroup>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\Error2\Error2.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\Error2\Error2.h</DependentOn>
+            <BuildOrder>80</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\File\File.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\File\File.h</DependentOn>
+            <BuildOrder>81</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\Format\Format.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\Format\Format.h</DependentOn>
+            <BuildOrder>82</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\IPHelper\IPHelper.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\IPHelper\IPHelper.h</DependentOn>
+            <BuildOrder>83</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\MessageBoxDlg\MessageBoxDlg.cpp">
+            <Form>DialogMessageBox</Form>
+            <DependentOn>..\..\Librarys\CBuilderUC\MessageBoxDlg\MessageBoxDlg.h</DependentOn>
+            <BuildOrder>84</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\Types\Types.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\Types\Types.h</DependentOn>
+            <BuildOrder>85</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\Usul\Usul.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\Usul\Usul.h</DependentOn>
+            <BuildOrder>86</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilderUC\Utils\Utils.cpp">
+            <DependentOn>..\..\Librarys\CBuilderUC\Utils\Utils.h</DependentOn>
+            <BuildOrder>87</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilder\Busy\Busy.cpp">
+            <DependentOn>..\..\Librarys\CBuilder\Busy\Busy.h</DependentOn>
+            <BuildOrder>75</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilder\COAP\COAP.cpp">
+            <DependentOn>..\..\Librarys\CBuilder\COAP\COAP.h</DependentOn>
+            <BuildOrder>76</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilder\JSON\JSON.cpp">
+            <DependentOn>..\..\Librarys\CBuilder\JSON\JSON.h</DependentOn>
+            <BuildOrder>77</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilder\NetTypes\NetTypes.cpp">
+            <DependentOn>..\..\Librarys\CBuilder\NetTypes\NetTypes.h</DependentOn>
+            <BuildOrder>78</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Librarys\CBuilder\UDP\UDP.cpp">
+            <DependentOn>..\..\Librarys\CBuilder\UDP\UDP.h</DependentOn>
+            <BuildOrder>79</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\CommunicationTestDlg.cpp">
+            <Form>DialogCommunicationTest</Form>
+            <DependentOn>Dialogs\CommunicationTestDlg.h</DependentOn>
+            <BuildOrder>91</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\EtherBootProgrammerDlg.cpp">
+            <Form>DialogEtherBootProgrammer</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\EtherBootProgrammerDlg.h</DependentOn>
+            <BuildOrder>71</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\LiveCodingTargetsDlg.cpp">
+            <Form>DialogLiveCodingTargets</Form>
+            <DependentOn>Dialogs\LiveCodingTargetsDlg.h</DependentOn>
+            <BuildOrder>92</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\MemoryTrackerDlg.cpp">
+            <Form>DialogMemoryTracker</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\MemoryTrackerDlg.h</DependentOn>
+            <BuildOrder>72</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\ModelessBaseDlg.cpp">
+            <Form>DialogModeless</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\ModelessBaseDlg.h</DependentOn>
+            <BuildOrder>71</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\ProjectDlg.cpp">
+            <Form>DialogProject</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\ProjectDlg.h</DependentOn>
+            <BuildOrder>71</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\ProjectNewDlg.cpp">
+            <Form>DialogProjectNew</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\ProjectNewDlg.h</DependentOn>
+            <BuildOrder>77</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\TargetSettingsDlg.cpp">
+            <Form>DialogTargetSettings</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Dialogs\TargetSettingsDlg.h</DependentOn>
+            <BuildOrder>73</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Dialogs\ZeroConfDlg.cpp">
+            <Form>DialogZeroConf</Form>
+            <DependentOn>Dialogs\ZeroConfDlg.h</DependentOn>
+            <BuildOrder>92</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="DLL\ICMPDLL.cpp">
+            <DependentOn>DLL\ICMPDLL.h</DependentOn>
+            <BuildOrder>75</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="EtherBootFrm.cpp">
+            <Form>FrameEtherBoot</Form>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>EtherBootFrm.h</DependentOn>
+            <BuildOrder>68</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Facility.cpp">
+            <DependentOn>Facility.h</DependentOn>
+            <BuildOrder>22</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FatFs-0-10-c\diskio.c">
+            <BuildOrder>84</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FatFs-0-10-c\ff.c">
+            <BuildOrder>85</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FatFs-0-10-c\option\unicode.c">
+            <BuildOrder>86</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FatFsImageBuilder.cpp">
+            <DependentOn>FatFsImageBuilder.h</DependentOn>
+            <BuildOrder>87</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\BrowserFrm.cpp">
+            <Form>FrameBrowser</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\BrowserFrm.h</DependentOn>
+            <BuildOrder>58</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\CommunicationHopFrm.cpp">
+            <Form>FrameCommunicationHop</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\CommunicationHopFrm.h</DependentOn>
+            <BuildOrder>64</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\LogFrm.cpp">
+            <Form>FrameLog</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\LogFrm.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\LuaEditorFrm.cpp">
+            <Form>FrameLuaEditor</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\LuaEditorFrm.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\NogsDesigner.cpp">
+            <Form>FrameDesigner</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\NogsDesigner.h</DependentOn>
+            <BuildOrder>72</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\ProjectFrm.cpp">
+            <Form>FrameProject</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\ProjectFrm.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\Setup\SetupBaseFrm.cpp">
+            <Form>FrameSetupBase</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\Setup\SetupBaseFrm.h</DependentOn>
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\Setup\SetupSysLogFrm.cpp">
+            <Form>FrameSetupSysLog</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\Setup\SetupSysLogFrm.h</DependentOn>
+            <BuildOrder>20</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\SysLog.cpp">
+            <Form>FrameSysLog</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\SysLog.h</DependentOn>
+            <BuildOrder>12</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\TargetsFrm.cpp">
+            <Form>FrameTargets</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\TargetsFrm.h</DependentOn>
+            <BuildOrder>14</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Frames\TopologieEditorFrm.cpp">
+            <Form>FrameTopolgieEditor</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Frames\TopologieEditorFrm.h</DependentOn>
+            <BuildOrder>74</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Indicator.cpp">
+            <DependentOn>Indicator.h</DependentOn>
+            <BuildOrder>79</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lapi.c">
+            <BuildOrder>24</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lauxlib.c">
+            <BuildOrder>25</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lbaselib.c">
+            <BuildOrder>26</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lbitlib.c">
+            <BuildOrder>27</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lcode.c">
+            <BuildOrder>28</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lcorolib.c">
+            <BuildOrder>29</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lctype.c">
+            <BuildOrder>30</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ldblib.c">
+            <BuildOrder>31</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ldebug.c">
+            <BuildOrder>32</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ldo.c">
+            <BuildOrder>33</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ldump.c">
+            <BuildOrder>34</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lfunc.c">
+            <BuildOrder>35</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lgc.c">
+            <BuildOrder>36</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\linit.c">
+            <BuildOrder>37</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\liolib.c">
+            <BuildOrder>38</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\llex.c">
+            <BuildOrder>39</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lmathlib.c">
+            <BuildOrder>40</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lmem.c">
+            <BuildOrder>41</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\loadlib.c">
+            <BuildOrder>42</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lobject.c">
+            <BuildOrder>43</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lopcodes.c">
+            <BuildOrder>44</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\loslib.c">
+            <BuildOrder>45</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lparser.c">
+            <BuildOrder>46</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lstate.c">
+            <BuildOrder>47</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lstring.c">
+            <BuildOrder>48</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lstrlib.c">
+            <BuildOrder>49</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ltable.c">
+            <BuildOrder>50</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ltablib.c">
+            <BuildOrder>51</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\ltm.c">
+            <BuildOrder>52</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lundump.c">
+            <BuildOrder>53</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lutf8lib.c">
+            <BuildOrder>54</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lvm.c">
+            <BuildOrder>55</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="lua-5.3.0-alpha\src\lzio.c">
+            <BuildOrder>56</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="LuaSyntaxChecker.cpp">
+            <DependentOn>LuaSyntaxChecker.h</DependentOn>
+            <BuildOrder>57</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="MainFrm.cpp">
+            <Form>FormMain</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>MainFrm.h</DependentOn>
+            <BuildOrder>1</BuildOrder>
+        </CppCompile>
+        <None Include="ModelSupport_NOGS_IDE\default.txaPackage"/>
+        <None Include="ModelSupport_NOGS_IDE\default.txvpck"/>
+        <None Include="ModelSupport_NOGS_IDE\Klassendiagramm.txvcls"/>
+        <None Include="ModelSupport_NOGS_IDE\Klassendiagramm1.txvcls"/>
+        <None Include="ModelSupport_NOGS_IDE\Klassendiagramm2.txvcls"/>
+        <None Include="ModelSupport_NOGS_IDE\Klassendiagramm3.txvcls"/>
+        <None Include="ModelSupport_NOGS_IDE\System\default.txvpck"/>
+        <CppCompile Include="Nogs IDE.cpp">
+            <BuildOrder>0</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Project.cpp">
+            <DependentOn>Project.h</DependentOn>
+            <BuildOrder>76</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Protcols\Mutator.cpp">
+            <DependentOn>Protcols\Mutator.h</DependentOn>
+            <BuildOrder>65</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Protcols\MutatorCOAPJSON.cpp">
+            <DependentOn>Protcols\MutatorCOAPJSON.h</DependentOn>
+            <BuildOrder>66</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="SetupAllDlg.cpp">
+            <Form>DialogSetupAll</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>SetupAllDlg.h</DependentOn>
+            <BuildOrder>23</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="SetupOneDlg.cpp">
+            <Form>DialogSetupOne</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>SetupOneDlg.h</DependentOn>
+            <BuildOrder>21</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Target.cpp">
+            <DependentOn>Target.h</DependentOn>
+            <BuildOrder>78</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Wizards\ZeroConf\ZeroConfWizardAdaperFrm.cpp">
+            <Form>FrameZeroConfWizardAdapter</Form>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>Wizards\ZeroConf\ZeroConfWizardAdaperFrm.h</DependentOn>
+            <BuildOrder>90</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Wizards\ZeroConf\ZeroConfWizardDlg.cpp">
+            <Form>DialogZeroConfWizard</Form>
+            <DependentOn>Wizards\ZeroConf\ZeroConfWizardDlg.h</DependentOn>
+            <BuildOrder>91</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="ZeroConfHelper.cpp">
+            <DependentOn>ZeroConfHelper.h</DependentOn>
+            <BuildOrder>89</BuildOrder>
+        </CppCompile>
+        <FormResources Include="SetupAllDlg.dfm"/>
+        <FormResources Include="Wizards\ZeroConf\ZeroConfWizardDlg.dfm"/>
+        <FormResources Include="Wizards\ZeroConf\ZeroConfWizardAdaperFrm.dfm"/>
+        <FormResources Include="SetupOneDlg.dfm"/>
+        <FormResources Include="MainFrm.dfm"/>
+        <FormResources Include="Dialogs\LiveCodingTargetsDlg.dfm"/>
+        <FormResources Include="Dialogs\MemoryTrackerDlg.dfm"/>
+        <FormResources Include="Dialogs\EtherBootProgrammerDlg.dfm"/>
+        <FormResources Include="Dialogs\CommunicationTestDlg.dfm"/>
+        <FormResources Include="Dialogs\ModelessBaseDlg.dfm"/>
+        <FormResources Include="Dialogs\ZeroConfDlg.dfm"/>
+        <FormResources Include="Dialogs\TargetSettingsDlg.dfm"/>
+        <FormResources Include="Dialogs\ProjectDlg.dfm"/>
+        <FormResources Include="Dialogs\ProjectNewDlg.dfm"/>
+        <FormResources Include="..\..\Librarys\CBuilderUC\MessageBoxDlg\MessageBoxDlg.dfm"/>
+        <FormResources Include="Frames\TargetsFrm.dfm"/>
+        <FormResources Include="Frames\TopologieEditorFrm.dfm"/>
+        <FormResources Include="Frames\SysLog.dfm"/>
+        <FormResources Include="Frames\Setup\SetupBaseFrm.dfm"/>
+        <FormResources Include="Frames\Setup\SetupSysLogFrm.dfm"/>
+        <FormResources Include="Frames\ProjectFrm.dfm"/>
+        <FormResources Include="EtherBootFrm.dfm"/>
+        <FormResources Include="Frames\LuaEditorFrm.dfm"/>
+        <FormResources Include="Frames\NogsDesigner.dfm"/>
+        <FormResources Include="Frames\LogFrm.dfm"/>
+        <FormResources Include="Frames\BrowserFrm.dfm"/>
+        <FormResources Include="Frames\CommunicationHopFrm.dfm"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+        <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <CPlusPlusBuilder.Personality>
+                <Source>
+                    <Source Name="MainSource">Nogs IDE.cpp</Source>
+                </Source>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1031</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <ProjectProperties>
+                    <ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+                    <ProjectProperties Name="ManagePaths">True</ProjectProperties>
+                    <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+                </ProjectProperties>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp160.bpl">Embarcadero C++Builder-Package für Office XP-Server</Excluded_Packages>
+                </Excluded_Packages>
+            </CPlusPlusBuilder.Personality>
+            <Deployment/>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+            <ModelSupport>False</ModelSupport>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')" Project="$(BDS)\Bin\CodeGear.Cpp.Targets"/>
+    <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+</Project>

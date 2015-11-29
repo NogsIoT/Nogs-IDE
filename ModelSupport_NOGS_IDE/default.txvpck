@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="urp5o9wc2an_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:class_ltablib_c_24_9">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ltablib_c_24_9.seti" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ltablib_c_24_9.geti" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameDesigner">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.PaintBox" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ScrollBox1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Splitter2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Panel4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Panel3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Panel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonSaveAll" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonRestart" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.SpeedButton2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonReboot" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonNew" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonSaveAs" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonSave" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.ButtonOpenb" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameDesigner.Panel5" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameDesigner.TFrameDesigner(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameDesigner.PaintBoxPaint(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameLuaEditor">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.LoadContext" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.AdvCSharpMemoStyler1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.Panel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.CopyHTML1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonSaveAll" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.AdvJSONMemoStyler" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemCloseTab" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.PopupMenuTabControl" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N91" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N81" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N71" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N61" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N51" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N41" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N31" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N21" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N11" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.Gotobookmark1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemEdit" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark9" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark8" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark7" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmark1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmarkX" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemLoad" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleCommend" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemSelectAll" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemPast" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemCopy" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemCut" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.N1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemRedo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.MenuItemUndo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.PopupMenuMemo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonRestart" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.AdvLuaMemoStyler" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.SpeedButton2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonReboot" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.OpenDialog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.SaveDialog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ApplicationEvents1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.Memo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.TabControl" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonNew" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonSaveAs" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonSave" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.ButtonOpenb" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLuaEditor.Panel5" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.SetErrorPosition(::System::UnicodeString!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.NewJSON(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.Load(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.New()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.Finish()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.TFrameLuaEditor(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ShortPath(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.GetInfo(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.GetInfo()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.CopyHTML1Click(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MemoURLClick(::System::TObject*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MemoIsURL(::System::TObject*!::System::UnicodeString!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonSaveAllClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemCloseTabClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.TabControlChanging(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleBookmarkXClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MemoMouseDown(::System::TObject*!::System::Uitypes::TMouseButton!::System::Classes::TShiftState!int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MemoLineBkColor(::System::TObject*!int!::System::Uitypes::TColor&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemLoadClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.PopupMenuMemoPopup(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemToggleCommendClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemSelectAllClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemPastClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemCopyClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemCutClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemRedoClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.MenuItemUndoClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonRestartClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonRebootClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonSaveAsClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ApplicationEvents1Idle(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.TabControlChange(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonSaveClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonOpenbClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLuaEditor.ButtonNewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameLuaEditor.TLoadContext" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameLuaEditor.TInfo" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONObject">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.Scan(TJSONScanner&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.TJSONObject(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.TJSONObject(bool)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TJSONObject:TJSONBase" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LoadState">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LoadState.name" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LoadState.b" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LoadState.Z" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LoadState.L" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:CallS">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:CallS.nresults" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:CallS.func" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogMemoryTracker">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.TrackerP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Tracker" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Memory" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Grid" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.ListBoxLog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Edit" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Panel11" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Splitter2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Panel10" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.PaintBox" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMemoryTracker.Panel2" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.Add(TDialogMemoryTracker::TBuffer*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.TDialogMemoryTracker(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.DoFree(unsigned int!unsigned int!unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.DoAllocate(unsigned int!unsigned int!unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.Area(::Vcl::Graphics::TCanvas*!unsigned int!unsigned int!::System::Uitypes::TColor)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.GridDrawCell(::System::TObject*!int!int!::System::Types::TRect&amp;!::Vcl::Grids::TGridDrawState)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMemoryTracker.PaintBoxPaint(::System::TObject*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogMemoryTracker.TBuffer" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogMemoryTracker.TItem" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TDialogMemoryTracker:TDialogModeless" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImage">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImage.SectorsCount" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImage.Sectors" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.UsedSectors()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.IsEmptySector(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorAddress(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorsCount()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorSize()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.Init(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.Clear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.~TFatFsImage()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.TFatFsImage()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImage.TSector" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFile">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFile.FileName" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFile.F" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.operator FILE *()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.Write(::System::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.Ok()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.Close(bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.Open(::System::UnicodeString!const char * const)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.Open(const char * const!const char * const)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.~TFile()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.TFile(::System::UnicodeString!const char * const)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.TFile(const char * const!const char * const)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.TFile(TFile const &amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.TFile()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFile.InternalError(::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogEtherBootProgrammer">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogEtherBootProgrammer.TFrameEtherBoot" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogEtherBootProgrammer.TDialogEtherBootProgrammer(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TDialogEtherBootProgrammer:TDialogModeless" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogSetupOne">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupOne.FrameSetupBase" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupOne.ButtonClose" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupOne.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupOne.TDialogSetupOne(::System::Classes::TComponent*!TFrameSetupBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupOne.ButtonCloseClick(::System::TObject*)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TDialogSetupOne.FrameSetupBase" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameEtherBoot">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:class_ldump_c_19_9">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ldump_c_19_9.status" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ldump_c_19_9.strip" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ldump_c_19_9.data" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ldump_c_19_9.writer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_ldump_c_19_9.L" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TError">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TError.B" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TError.A" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TError.S" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.GetString()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.Continue()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.Show()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.Add(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.TError(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.TError(const char*!int!::System::UnicodeString!int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.TError(const char*!int!::System::UnicodeString!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TError.TError(const char*!int!::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogTargetSettings">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ListItem" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ComboBoxAutomaticUploadProject" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.GroupBox3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ButtonOk" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ApplicationEvents1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.PaintBox" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.Panel3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.RadioGroupAutomaticUploadMode" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ButtonManualUploadSDCard" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.GroupBox1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.GroupBox2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.DateTimePickerLastTime" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.DateTimePickerLastDate" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.DateTimePickerFirstTime" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.DateTimePickerFirstDate" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.EditName" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.Label2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.Label1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.TabSheetUpload" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.PageControl" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.ButtonCancel" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogTargetSettings.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.TDialogTargetSettings(::System::Classes::TComponent*!TDialogTargetSettings::TListItem*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.PageControlChange(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.ButtonOkClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.ApplicationEvents1Idle(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.PaintBoxPaint(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogTargetSettings.ButtonCancelClick(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="design:view:::m9wgjzvxejl_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:System.DynamicArray&lt;TDialogMemoryTracker::TBuffer&gt;" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMemoryStreamWithCGauge">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TMemoryStreamWithCGauge.CGauge" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMemoryStreamWithCGauge.Write(void * const!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMemoryStreamWithCGauge.Read(void*!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMemoryStreamWithCGauge.TMemoryStreamWithCGauge(TCGauge*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFFSPacket">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFFSPacket.Data" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFFSPacket.Parameter" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFFSPacket.Command" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TProject">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TProject.StartupFile" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TProject.TreeNode" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.GetTreeNodeTextColor(::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.GetStartupFile()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.GetPath()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.SetPath(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.Refresh()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.Close()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.Open(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.New(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.~TProject()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.TProject(::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.BuildTreeView(TProject::TTreeView*!::Vcl::Comctrls::TTreeNode*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TProject.GetPathFromTreeNode(::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TProject.TTreeNodeType" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.S" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Sym" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.C" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Columne" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Line" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.SourceP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Source" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.TJSONScanner(::System::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.ErrorToString(TJSONScanner::TError&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.ErrorToString(TJSONScanner::TErrorType)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Throw(TJSONScanner::TErrorType)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Need(TJSONScanner::TSym)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Is(TJSONScanner::TSym)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetSym()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetSym2()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetChar()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TError" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TErrorType" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TSym" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogProjectNew">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.TemplatePath" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.ButtonCreate" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.ImageList1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.TreeView" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.ListView" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.PageControl" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.ButtonCancel" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProjectNew.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.GetFileList()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.TDialogProjectNew(::System::Classes::TComponent*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.BuildTreeView(::Vcl::Comctrls::TTreeView*!::Vcl::Comctrls::TTreeNode*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.ListViewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.ButtonCreateClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.ButtonCancelClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProjectNew.TreeViewGetSelectedIndex(::System::TObject*!::Vcl::Comctrls::TTreeNode*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFormMain">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.UniqueId" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TDialogModelessManager" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameLuaEditor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameTopolgieEditor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TabSheet3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameDesigner" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.PageControl1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Programmer1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Nodecommunicationtest1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MenuItemMemoryTracker" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.IdUDPMemoryTrackerServer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.N3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameBrowser" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Splitter5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameTargets" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Panel3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Selectall1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.N2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MenuItemOptions" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.ools1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.N4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Paste1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Copy1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Cut1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Repeat1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Undo1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Edit1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.About1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.HowtoUseHelp1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Tutorial1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.SearchforHelpOn1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Keyboard1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Procedures1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Commands1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Index1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Contents1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Help1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.IdUDPBackdoorServer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.IdUDPFFSServer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Splitter4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.IdAntiFreeze" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Image1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Splitter3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Splitter2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.FileOpenDialog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.N1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MenuItemExit" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MenuItemProjectOpen" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MenuItemProjectNew" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.File1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.MainMenu" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameLog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.TFrameProject" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFormMain.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.Backdoor(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.Log(TFormMain::TTreeNode*!int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.Log(int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.LogClear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.TFormMain(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.Programmer1Click(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.Nodecommunicationtest1Click(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.MenuItemMemoryTrackerClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.MenuItemExitClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.MenuItemOptionsClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.IdUDPFFSServerStatus(::System::TObject*!::Idcomponent::TIdStatus!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.FormCloseQuery(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.MenuItemProjectOpenClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.MenuItemProjectNewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFormMain.FormCreate(::System::TObject*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFormMain.TUniqueId" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:class_liolib_c_370_9">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_liolib_c_370_9.buff" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_liolib_c_370_9.n" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_liolib_c_370_9.c" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_liolib_c_370_9.f" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TICMPDLL">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TICMPDLL._IcmpSendEcho" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TICMPDLL._IcmpCloseHandle" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TICMPDLL._IcmpCreateFile" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TICMPDLL.DLLOwner" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TICMPDLL.DLL" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TICMPDLL.Ping(TICMPDLL::UnicodeString!unsigned int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TICMPDLL.Ping(TICMPDLL::UnicodeString!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TICMPDLL.Get()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TICMPDLL.~TICMPDLL()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TICMPDLL.TICMPDLL()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TICMPDLL.TError" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TICMPDLL.TIcmpSendEcho" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TICMPDLL.TIcmpCloseHandle" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TICMPDLL.TIcmpCreateFile" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutatorCOAPJSON">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutatorCOAPJSON.Unwrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutatorCOAPJSON.Wrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TMutatorCOAPJSON:TMutator" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TUtils">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.Wildcard(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.Wildcard(const char * const!const char * const)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.ValidFileName(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.FormatWindowsErrorMessage(unsigned long)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.RunningAsAdministrator()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.LoadStringList(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.SaveTextFile(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.LoadTextFile(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.RenameDir(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.DeleteOldFiles(::System::UnicodeString!double)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.BackupFile(::System::UnicodeString!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.DeleteFileW(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.MoveFileW(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.CopyFileW(::System::UnicodeString!::System::UnicodeString!bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.EscapeToControlChars(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.ControlToEscapeChars(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.ExtractPart(::System::UnicodeString!::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.GetLeft(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.PopLeft(::System::UnicodeString&amp;!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.CommaTextToStringList(::System::UnicodeString!TUtils::TStrings*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.AToF(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.IToB(unsigned int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.XToI(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.AToI(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUtils.IsValue(::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TUsul">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUsul.ComputerName" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUsul.Path" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUsul.Ini" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUsul.~TUsul()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUsul.TUsul()" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImageBuilder">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImageBuilder.Acquired" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImageBuilder.FatFs" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Clone()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.BuildFromDirectory(::System::UnicodeString!TCGauge*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.BuildFromDirectory(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Crunch()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.CopyToImage(::System::UnicodeString!::System::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.ShowDirectory(::System::AnsiString!TFatFsImageBuilder::TTreeView*!TFatFsImageBuilder::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Clear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Release()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Acquire()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.TFatFsImageBuilder()" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TFatFsImageBuilder:TFatFsImage" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogProject">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProject.Project" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProject.ApplicationEvents1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProject.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProject.PageControl1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogProject.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogProject.TDialogProject(::System::Classes::TComponent*!TProject*)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TDialogProject.Project" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameBrowser">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameBrowser.IP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameBrowser.ImageList1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameBrowser.TreeView" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameBrowser.ButtonBrowse" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameBrowser.Panel5" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.Recv(TJSONArray*!TJSONArray*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.BrowseSN(::System::UnicodeString!::System::UnicodeString!unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.BrowseCN(::System::UnicodeString!::System::UnicodeString!unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.BrowsePN(::System::UnicodeString!::System::UnicodeString!unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.Finish()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.TFrameBrowser(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.ButtonBrowseClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.TreeViewChange(::System::TObject*!::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameBrowser.TreeViewCustomDrawItem(::Vcl::Comctrls::TCustomTreeView*!::Vcl::Comctrls::TTreeNode*!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameSetupSysLog">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Facility" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Button2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Button1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxFontColor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxBackColor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.CheckBoxVisible" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Label4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Label1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Panel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ListView" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.EditClearOn" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.PageControl1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ButtonSysLogColorsResetToDefault" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxSysLogColorsFontColor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxSysLogColorsBackColor" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Label3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Label2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Panel5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.Panel3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.ListViewSysLogColors" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSetupSysLog.GroupBox4" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.TFrameSetupSysLog(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.CheckBoxVisibleClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.Button2Click(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxBackColorClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.ColorListBoxFontColorClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.ListViewCustomDrawSubItem(::Vcl::Comctrls::TCustomListView*!::Vcl::Comctrls::TListItem*!int!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.ListViewCustomDrawItem(::Vcl::Comctrls::TCustomListView*!::Vcl::Comctrls::TListItem*!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupSysLog.ListViewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TFrameSetupSysLog:TFrameSetupBase" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TFrameSetupSysLog.Facility" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIndicatorFadeOut">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorFadeOut.Level" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorFadeOut.B" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorFadeOut.G" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorFadeOut.R" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorFadeOut.Text" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.GetBgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.GetFgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.GetText()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.IsFinished()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.Step()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorFadeOut.TIndicatorFadeOut(::System::UnicodeString!::System::Uitypes::TColor)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TIndicatorFadeOut:TIndicator" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:DumpState">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:DumpState.status" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:DumpState.strip" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:DumpState.data" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:DumpState.writer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:DumpState.L" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TUDP">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUDP.Sin" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUDP.Socket" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUDP.IP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUDP.Port" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TUDP.WSAData" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Send(TUDP::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Send(const char*!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.RecvIP()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Recv(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Recv(const char*!int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.MsgRecved(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Disconnect()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.IsConnected()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Connect(TUDP::AnsiString!int!TUDP::TMode)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Connect(const char*!int!TUDP::TMode)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.Connect(unsigned int!int!TUDP::TMode)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.GetHostName()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.BroadcastIP(unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.IPToString(unsigned int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.StringToIP(TUDP::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.StringToIP(const char*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.~TUDP()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TUDP.TUDP()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TUDP.TMode" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogMessageBox">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Time" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.ButtonNegative" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.ButtonPositive" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.CheckBox" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.MemoText" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Memo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.ButtonX" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Components" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Flags" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Timer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogMessageBox.Image" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.SetButtons()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.SetIcon(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.SetIcon()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.SetIconFromHandle(HICON__*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.SetFlags(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.AddDontShowAgain()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.AddMemo(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.AddButton(::System::UnicodeString!int!bool!bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.~TDialogMessageBox()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.TDialogMessageBox(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.ButtonClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.TimerTimer(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogMessageBox.FormShow(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LHS_assign">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LHS_assign.v" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:LHS_assign.prev" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:LHS_assign.prev" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:class_lparser_c_1017_14">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lparser_c_1017_14.right" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lparser_c_1017_14.left" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameTargets">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogCommunicationTest">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Deletehop1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Appendnewhop1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PopupMenu1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TFrameCommunicationHop" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet0" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PageControlHops" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.EditSend" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendNON" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendCON" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button9" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button7" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet7" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button16" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button10" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button15" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button18" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button17" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ListBoxQueryList" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PageControl2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel3" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.Set(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ChangeTabCaption(::Vcl::Comctrls::TTabSheet*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.TDialogCommunicationTest(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.RethinkTabs()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.PageControlHopsChange(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendNONClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendCONClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ListBoxQueryListClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonXClick(::System::TObject*)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TDialogCommunicationTest:TDialogModeless" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameCommunicationHop">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.DialogCommunicationTest" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.ListBoxSerial" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditTCPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditTCPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditUDPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditUDPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.PanelNumber" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.ButtonCOAPPing" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditCOAPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditCOAPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.PageControl" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.Set(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.Init(TDialogCommunicationTest*!::Vcl::Comctrls::TTabSheet*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.TFrameCommunicationHop(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.ButtonCOAPPingClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.PageControlChange(::System::TObject*)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TFrameCommunicationHop.DialogCommunicationTest" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:SParser">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:SParser.name" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:SParser.mode" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:SParser.dyd" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:SParser.buff" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:SParser.z" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TTarget">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.FatFsImage" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.ProjectPath" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.AutomaticUploadMode" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.LastTime" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.FirstTime" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.Type" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.Startup" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.Indicator" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TTarget.ListItem" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.Handle(TFFSPacket*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.SetProjectPath(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetProjectPath()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.SetAutomaticUploadMode(TTarget::TAutomaticUploadMode)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetAutomaticUploadMode()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetLastTime()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetFirstTime()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.SetLastUsage(::System::TDateTime)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.SetLastUsage()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetStartup()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.SetIndicator(TIndicator*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetIndicator()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.GetNodeType()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.Get(::Vcl::Comctrls::TListItem*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.Save(TTarget::TIniFile*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.~TTarget()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.TTarget(::Vcl::Comctrls::TListItem*!TTarget::TIniFile*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TTarget.TTarget(::Vcl::Comctrls::TListItem*!::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TTarget.TFFSCommand" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TTarget.TAutomaticUploadMode" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TTarget.TNodeType" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TTarget.FatFsImage" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TTarget.Indicator" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:lua_longjmp">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:lua_longjmp.status" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:lua_longjmp.b" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:lua_longjmp.previous" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:lua_longjmp.previous" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONArray">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.Scan(TJSONScanner&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.TJSONArray(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.TJSONArray(bool)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TJSONArray:TJSONBase" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameSysLog">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.ClearOnText" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.Facility" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.CGauge" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.PanelGauge" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.N1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.MenuItemClear" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.MenuItemSettings" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.PopupMenu" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameSysLog.ListView" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.Syslog(TFrameSysLog::TIdSysLogMessage*!TFrameSysLog::TIdSocketHandle*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.TFrameSysLog(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.MenuItemClearClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.MenuItemSettingsClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.ListViewCustomDrawSubItem(::Vcl::Comctrls::TCustomListView*!::Vcl::Comctrls::TListItem*!int!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSysLog.ListViewCustomDrawItem(::Vcl::Comctrls::TCustomListView*!::Vcl::Comctrls::TListItem*!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TFrameSysLog.Facility" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameSetupBase">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupBase.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameSetupBase.TFrameSetupBase(::System::Classes::TComponent*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONBase">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONBase.List" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONBase.CleanUp" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(TJSONBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString!TJSONBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ModifyString(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ModifyString(int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetText()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetName(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetString(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetString(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONArray(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONArray(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONObject(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONObject(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Length()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.SetCleanUp(bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Null()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.True()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.False()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.~TJSONBase()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.TJSONBase(bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ItemToString(TJSONFormatter&amp;!int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.IsValue(::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogModelessManager">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogModelessManager.List" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.Get(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.NeedCreation(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.Unregister(TDialogModeless*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.Register(::System::UnicodeString!TDialogModeless*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.~TDialogModelessManager()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModelessManager.TDialogModelessManager()" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:class_lundump_c_29_9">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lundump_c_29_9.name" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lundump_c_29_9.b" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lundump_c_29_9.Z" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:class_lundump_c_29_9.L" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TBusy">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TBusy.CursorOld" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TBusy.~TBusy()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TBusy.TBusy()" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper.IPNetTable" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper.IPAdapterInfo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper._AddIPAddress" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper._FlushIpNetTable" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper._GetIpNetTable" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper._GetAdaptersInfo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper.DLLOwner" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIPHelper.DLL" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIPHelper.GetIPAdapterInfo()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIPHelper.GetIPNetTable()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIPHelper.~TIPHelper()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIPHelper.TIPHelper()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TIPNetTable" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TIPAdapterInfo" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TError" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TAddIPAddress" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TFlushIpNetTable" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TGetIpNetTable" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIPHelper.TGetAdaptersInfo" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameLog">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.MenuItemOpen" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.MenuItemClear" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.PopupMenu" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.TabControl" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.IdSyslogServer" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.TreeViewLog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameLog.PageControlLog" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.Log(::Vcl::Comctrls::TTreeNode*!int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.Log(int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.LogClear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.TFrameLog(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.PopupMenuPopup(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.MenuItemOpenClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.MenuItemClearClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.IdSyslogServerSyslog(::System::TObject*!::Idsyslogmessage::TIdSysLogMessage*!::Idsockethandle::TIdSocketHandle*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameLog.TreeViewLogCustomDrawItem(::Vcl::Comctrls::TCustomTreeView*!::Vcl::Comctrls::TTreeNode*!::Vcl::Comctrls::TCustomDrawState!bool&amp;)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutator">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutator.Unwrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutator.Wrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutator.TPacket" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIndicatorStatic">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorStatic.Color" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TIndicatorStatic.Text" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorStatic.GetBgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorStatic.GetFgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorStatic.GetText()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorStatic.IsFinished()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicatorStatic.TIndicatorStatic(::System::UnicodeString!::System::Uitypes::TColor)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TIndicatorStatic:TIndicator" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameTopolgieEditor">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.AdvLuaMemoStyler" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.Memo" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ScrollBox1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.Panel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonSaveAll" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonRestart" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.SpeedButton2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonReboot" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonNew" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonSaveAs" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonSave" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.ButtonOpenb" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameTopolgieEditor.Panel5" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameTopolgieEditor.TFrameTopolgieEditor(::System::Classes::TComponent*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONFormatter">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.Seperator" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.Indent" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.NewLine" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetSeperator()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetIndent(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetNewLine()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.TJSONFormatter(::System::UnicodeString!::System::UnicodeString!::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogSetupAll">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.ActiveFameSetupBase" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.PanelFrames" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.ListBox" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.ButtonClose" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogSetupAll.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupAll.TDialogSetupAll(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupAll.Add(::System::UnicodeString!TFrameSetupBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupAll.ListBoxClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogSetupAll.ButtonCloseClick(::System::TObject*)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TDialogSetupAll.ActiveFameSetupBase" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TIndicator">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.GetBgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.GetFgColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.GetText()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.IsFinished()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.Step()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.~TIndicator()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TIndicator.TIndicator()" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameProject">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.ApplicationEvents1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemRefresh" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.OpenDialog" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.ImageList2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.ImageList1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Newfolder1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Existingfile1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Newfile5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Add3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.N5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemNewFolder1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.New2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Newfile4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemNewFile2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Add2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.PopupMenuDirectory" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemNewFile1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemExistingFile1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Add1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.N4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.FTPserver1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.FFSServer1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.N3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Enabled1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Remove1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.N2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Edit1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Panel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.FTPupload1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.N1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.MenuItemSettings" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.PopupMenuFile" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.PopupMenuProject" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.ButtonNew" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.ButtonSettings" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.Panel5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameProject.TreeView" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.GetProjects()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.Refresh()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.New(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.Finish()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.TFrameProject(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.GetPath(::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.GetProject(::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.ApplicationEvents1Idle(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.ButtonNewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.ButtonSettingsClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.TreeViewAdvancedCustomDrawItem(::Vcl::Comctrls::TCustomTreeView*!::Vcl::Comctrls::TTreeNode*!::Vcl::Comctrls::TCustomDrawState!::Vcl::Comctrls::TCustomDrawStage!bool&amp;!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.MenuItemNewFolderClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.MenuItemExistingFileClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.MenuItemNewFileClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.TreeViewGetSelectedIndex(::System::TObject*!::Vcl::Comctrls::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.TreeViewClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameProject.TreeViewDblClick(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFacility">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFacility.Items" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.Save(TFacility::TIniFile*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.Load(TFacility::TIniFile*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.GetBackColor()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.Reset()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.operator [](int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.Get()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFacility.TFacility()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFacility.TItem" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:ConsControl">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:ConsControl.tostore" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:ConsControl.na" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:ConsControl.nh" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:ConsControl.t" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:ConsControl.v" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogModeless">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogModeless.Bevel1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogModeless.Button1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogModeless.CheckBoxStayOnTop" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogModeless.Panel1" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModeless.Finish()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModeless.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModeless.TDialogModeless(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModeless.FormCloseQuery(::System::TObject*!bool&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogModeless.CheckBoxStayOnTopClick(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:BlockCnt">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:int16">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:int32">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:int64">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:int8">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LG">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LoadF">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LoadS">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LStream">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:LX">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:MatchState">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:RN">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TabA">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:uchar">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:uint16">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:uint32">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:uint64">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:uint8">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:wchar">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::0r0pipqye1i_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::n7qfjqb1hbg_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::naxugbvkpk4eu0ons_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::pcs1hi6iq7pqu2ifk_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

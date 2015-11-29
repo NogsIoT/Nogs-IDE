@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0r0pipqye1i_v">
+    <property name="$metaclass" value="Class Diagram" />
+    <property name="$name" value="Klassendiagramm" />
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImage">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,40,213,253" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImage.SectorsCount" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImage.Sectors" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.UsedSectors()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.IsEmptySector(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorAddress(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorsCount()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.GetSectorSize()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.Init(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.Clear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.~TFatFsImage()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImage.TFatFsImage()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImage.TSector" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFatFsImageBuilder">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,360,189,236" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImageBuilder.Acquired" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFatFsImageBuilder.FatFs" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Clone()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.BuildFromDirectory(::System::UnicodeString!TCGauge*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.BuildFromDirectory(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Crunch()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.CopyToImage(::System::UnicodeString!::System::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.ShowDirectory(::System::AnsiString!TFatFsImageBuilder::TTreeView*!TFatFsImageBuilder::TTreeNode*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Clear()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Release()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.Acquire()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFatFsImageBuilder.TFatFsImageBuilder()" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TFatFsImageBuilder:TFatFsImage">
+        <property name="sourceAnchor" value="274,360" />
+        <property name="targetAnchor" value="274,293" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

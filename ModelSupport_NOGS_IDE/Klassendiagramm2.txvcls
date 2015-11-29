@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="naxugbvkpk4eu0ons_v">
+    <property name="$metaclass" value="Class Diagram" />
+    <property name="$name" value="Klassendiagramm2" />
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,40,182,375" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.S" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Sym" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.C" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Columne" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Line" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.SourceP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONScanner.Source" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.TJSONScanner(::System::AnsiString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.ErrorToString(TJSONScanner::TError&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.ErrorToString(TJSONScanner::TErrorType)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Throw(TJSONScanner::TErrorType)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Need(TJSONScanner::TSym)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.Is(TJSONScanner::TSym)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetSym()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetSym2()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONScanner.GetChar()" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TError" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TErrorType" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONScanner.TSym" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONObject">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="700,560,154,114" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.Scan(TJSONScanner&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.TJSONObject(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONObject.TJSONObject(bool)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TJSONObject:TJSONBase">
+        <property name="sourceAnchor" value="817,560" />
+        <property name="targetAnchor" value="817,486" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONFormatter">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,460,182,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.Seperator" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.Indent" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONFormatter.NewLine" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetSeperator()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetIndent(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.GetNewLine()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONFormatter.TJSONFormatter(::System::UnicodeString!::System::UnicodeString!::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONBase">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="780,40,200,446" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONBase.List" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TJSONBase.CleanUp" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(TJSONBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString!TJSONBase*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Put(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ModifyString(::System::UnicodeString!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ModifyString(int!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetText()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetName(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetString(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetString(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONArray(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONArray(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONObject(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.GetJSONObject(int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Length()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.SetCleanUp(bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.Null()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.True()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.False()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.~TJSONBase()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.TJSONBase(bool)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.ItemToString(TJSONFormatter&amp;!int!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONBase.IsValue(::System::UnicodeString)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TJSONArray">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="920,560,154,114" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.ToString(TJSONFormatter&amp;!int)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.Scan(TJSONScanner&amp;)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.TJSONArray(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TJSONArray.TJSONArray(bool)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TJSONArray:TJSONBase">
+        <property name="sourceAnchor" value="950,560" />
+        <property name="targetAnchor" value="950,486" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

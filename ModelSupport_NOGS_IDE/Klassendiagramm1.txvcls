@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="n7qfjqb1hbg_v">
+    <property name="$metaclass" value="Class Diagram" />
+    <property name="$name" value="Klassendiagramm1" />
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutator">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,60,122,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutator.Unwrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutator.Wrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutator.TPacket" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TMutatorCOAPJSON">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="520,60,136,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutatorCOAPJSON.Unwrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TMutatorCOAPJSON.Wrap(TMutator::TPacket*)" />
+      <reference referencedUin="cpp:l_gnt:src:NOGS_IDE:TMutatorCOAPJSON:TMutator">
+        <property name="sourceAnchor" value="520,102" />
+        <property name="targetAnchor" value="422,102" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TFrameCommunicationHop">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,300,326,400" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.DialogCommunicationTest" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.ListBoxSerial" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditTCPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditTCPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditUDPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditUDPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.PanelNumber" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.ButtonCOAPPing" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditCOAPIP" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.EditCOAPPort" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.TabSheet1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TFrameCommunicationHop.PageControl" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.Set(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.Init(TDialogCommunicationTest*!::Vcl::Comctrls::TTabSheet*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.TFrameCommunicationHop(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.ButtonCOAPPingClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TFrameCommunicationHop.PageControlChange(::System::TObject*)" />
+      <reference referencedUin="cpp:l_ast:src:NOGS_IDE:TFrameCommunicationHop.DialogCommunicationTest">
+        <property name="sourceAnchor" value="506,500" />
+        <property name="targetAnchor" value="760,500" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="cpp:e_class:src:NOGS_IDE:TDialogCommunicationTest">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="760,100,205,685" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Splitter1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Deletehop1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Appendnewhop1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PopupMenu1" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TFrameCommunicationHop" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet0" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PageControlHops" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel4" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.EditSend" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendNON" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendCON" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button9" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet6" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button7" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet7" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button16" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button3" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button10" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button15" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button18" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Button17" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.ListBoxQueryList" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.TabSheet5" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.PageControl2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel2" />
+      <reference referencedUin="cpp:e_field:src:NOGS_IDE:TDialogCommunicationTest.Panel3" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.Set(::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ChangeTabCaption(::Vcl::Comctrls::TTabSheet*!::System::UnicodeString)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.Init()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.TDialogCommunicationTest(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.RethinkTabs()" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.PageControlHopsChange(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendNONClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonSendCONClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ListBoxQueryListClick(::System::TObject*)" />
+      <reference referencedUin="cpp:e_method:src:NOGS_IDE:TDialogCommunicationTest.ButtonXClick(::System::TObject*)" />
+    </reference>
+  </view>
+</nodeSet>
